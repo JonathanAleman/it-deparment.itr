@@ -1,5 +1,5 @@
 module.exports = {
-    puglins:[
+    plugins:[
         require('tailwindcss'),
         require('autoprefixer')
     ]
