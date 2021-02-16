@@ -4,4 +4,11 @@
 
 @tailwind components;
 
+.bg-equipo{
+    background-image: url('/public/img/grupo.jpg')
+}
+.bg-preguntas{
+    background-image: url("/public/img/note3.jpg")
+}
+
 @tailwind utilities;

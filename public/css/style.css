@@ -582,6 +582,14 @@ video {
   }
 }
 
+.bg-equipo{
+  background-image: url('/public/img/grupo.jpg')
+}
+
+.bg-preguntas{
+  background-image: url('/public/img/note.jpg')
+}
+
 .space-y-0 > :not([hidden]) ~ :not([hidden]){
   --tw-space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
@@ -4452,10 +4460,6 @@ video {
 
 .bg-gradient-to-tl{
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
-}
-
-.bg-teamwork{
-  background-image: url('/public/img/grupo.jpg');
 }
 
 .from-transparent{
@@ -36442,10 +36446,6 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .sm\:bg-teamwork{
-    background-image: url('/public/img/grupo.jpg');
-  }
-
   .sm\:from-transparent{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -68350,10 +68350,6 @@ video {
 
   .md\:bg-gradient-to-tl{
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
-  }
-
-  .md\:bg-teamwork{
-    background-image: url('/public/img/grupo.jpg');
   }
 
   .md\:from-transparent{
@@ -100262,10 +100258,6 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .lg\:bg-teamwork{
-    background-image: url('/public/img/grupo.jpg');
-  }
-
   .lg\:from-transparent{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -132172,10 +132164,6 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .xl\:bg-teamwork{
-    background-image: url('/public/img/grupo.jpg');
-  }
-
   .xl\:from-transparent{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -164080,10 +164068,6 @@ video {
 
   .\32xl\:bg-gradient-to-tl{
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
-  }
-
-  .\32xl\:bg-teamwork{
-    background-image: url('/public/img/grupo.jpg');
   }
 
   .\32xl\:from-transparent{

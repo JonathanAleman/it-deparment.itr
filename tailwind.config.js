@@ -20,9 +20,11 @@ module.exports = {
           'purple-2': '#786DF0',
         }
       },
-      backgroundImage:{
-        'teamwork':"url('/public/img/grupo.jpg')"
-      }
+      /*backgroundImage:{
+        'teamwork':"url('/public/img/grupo.jpg')",
+        'question': "url('/public/img/note.jpg')",
+        
+      }*/
     },
     
   
