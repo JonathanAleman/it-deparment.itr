@@ -20,6 +20,12 @@ module.exports = {
           'purple-2': '#786DF0',
         }
       },
+      maxHeight:{
+          '98': '440px'
+      },
+      minHeight:{
+        '98':'440px'
+      },
       /*backgroundImage:{
         'teamwork':"url('/public/img/grupo.jpg')",
         'question': "url('/public/img/note.jpg')",
