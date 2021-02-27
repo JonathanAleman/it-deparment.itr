@@ -106,9 +106,9 @@
             <h2 class="font-title font-extrabold text-white text-2xl uppercase tracking-wide text-center pt-5 mb-9">Nuestro equipo</h2>
             <div class="container__list pb-10">
                 <div class="slide">
-                    <div class="w-72 h-auto mx-auto pt-8 pb-4 bg-white bg-opacity-95">
+                    <div class="w-72 max-h-98 h-98 mx-auto pt-8 pb-4 bg-white bg-opacity-95">
                         <picture >
-                            <img  class="w-40 rounded-full mb-8 mx-auto" src="img/Jona.jpeg" alt="">
+                            <img  class="w-36 rounded-full mb-8 mx-auto" src="img/Jona.jpeg" alt="">
                         </picture>
                         <h4 class="font-title font-extrabold text-center text-blue-600 text-2xl">Loren ipsum</h4>
                         <p class="text-center w-9/12 mx-auto mt-2 font-sans font-normal tracking-wide">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
@@ -123,7 +123,7 @@
                     </div>  
                 </div>
                 <div class="slide">
-                    <div class="w-72 h-auto mx-auto pt-8 pb-4 bg-white bg-opacity-95">
+                    <div class="w-72 min-h-98 max-h-98 h-98 mx-auto pt-8 pb-4 bg-white bg-opacity-95">
                         <picture >
                             <img  class="w-40 rounded-full mb-8 mx-auto" src="img/team2.jpg" alt="">
                         </picture>
@@ -140,7 +140,13 @@
                     </div>  
                 </div>
             </div>
+            <div role="tablist" class="dots"></div>
         </div>
+        <button aria-label="Previous" class="carousel-prev">«
+
+        </button>
+        <button aria-label="Next" class="carousel-next">»</button>
+        
     </section>
 
     <!--PROYECTOS-->
@@ -167,7 +173,7 @@
             <div class="p-5">
                 <h4 class="text-xl mb-3 tracking-wider font-semibold text-white">Loren ipsum</h4>
                 <p class="text-xs mb-3 tracking-widest uppercase text-secondary-gray-9"> Octubre 4, 2020/ Por <strong class="text-blue-600">Jonathan A.</strong></p>               
-                <p class="text-base mb-4 text-blue text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel tempora quod saepe maiores doloremque et voluptatibus</p>
+                <p class="text-base mb-4 text-blue text-gray-300 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel tempora quod saepe maiores doloremque et voluptatibus</p>
                 <a href="" class="text-sm font-bold tracking-wides uppercase text-blue-600">Leer más <span><i class="fas fa-angle-right"></i></span></a>                                     
             </div>
         </article>
@@ -200,9 +206,20 @@
                     </div>  
                 </div>
             </div>
+            <div role="tablist" class="dotss"></div>
         </div>
     </section>
-    <footer>
+    <footer class="flex flex-wrap text-secondary-gray-9">
+        <div class="w-11/12 mx-auto my-12 text-center">
+            <div class="mb-2 text-sm">
+                <a href="" class="mr-8"><i class="fas fa-envelope mr-1"></i>lorem@epsum.com</a>
+                <a href="" class=""><i class="fas fa-phone mr-1"></i> 76226360</a><br>
+            </div>
+            <div class="mb-2 ">
+                <span class="text-sm"><i class="fas fa-map-marker-alt mr-1"></i>Avenida Aguilares 218, San Salvador, El Salvador</span>
+            </div>
+            <span class="mb-8 text-sm">&copy; Copyright 2021 - Departamento de desarrollo</span>
+        </div>
     </footer>
     <script src="js/app.js"></script>
     <script src="index.js"></script>

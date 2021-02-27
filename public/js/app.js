@@ -35,7 +35,7 @@ window.addEventListener('load', function(){
     new Glider(document.querySelector('.container__list'), {
         // Mobile-first defaults
         slidesToShow: 1,
-        dots: '.dots',
+        dots: '.dotss',
         arrows: {
           prev: '.carousel-prev',
           next: '.carousel-next'
