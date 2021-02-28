@@ -1,5 +1,5 @@
 # Departamento de Infraestructura Tecnológica
-#####instituto Técnico Ricaldone
+##### Instituto Técnico Ricaldone
 Tecnología implementada
 1. HTML 5 y CSS3
 
